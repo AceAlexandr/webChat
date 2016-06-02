@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Chatv10</title>
+   <meta charset=utf-8">
+
+  <link rel="stylesheet" href="resources/css/bootstrap.min.css">
+  <link rel="stylesheet" href="resources/css/style.css">
+    <script src="resources/js/scripts.js"></script>
+</head>
+<body onload="run();">
+<p></p>
+<div  class="container-fluid">
+  <div class="row">
+    <div class=" col-sm-offset-3 col-sm-6 border1" style="background-color:lavender;">
+		<div class="row">
+			<div align=center class="col-sm-3 nickSection" style="background-color:lavender;">
+				<div>
+				<p></p>
+				<img src="resources/img/avatar.jpg" align=center class="img-thumbnail" alt="Thumbnail Image" width="125" height="125">
+				</div>
+				<div class="form-group scriptNickname">
+					<span id="labelNickname">nick</span>
+					<input type="text" class="form-control" id="newNickname" placeholder="Enter you nickname">
+					<p></p>
+					<button type="button" id="NickButton" class="btn btn-primary btnAceptNickname" name="Accept">Accept</button>
+				</div>
+				<div class="form-group">
+					<span>server: </span>
+					<span  id="serverStatus"></span>
+				</div>
+			</div>
+			<!--���� ������ ���������-->                             
+
+			<div class="col-sm-8  overflow border1 allMessages" >
+				
+				<!--<div   class="row bg-success oneMessage marginT">
+					<div class="col-sm-2" >
+						<img src="message.png" 	class="img-thumbnail bg-success" alt="Thumbnail Image" width="50" height="50">
+					</div>
+					<div class="col-sm-10" >
+						<div class="row" align=left>
+							<div  class="col-sm-6" ><span class="messageNickname">Nickname</span></div>
+							<div class="col-sm-3" ><font size=1 color=gray>10.03-20:33</font></div>
+							<div class="col-sm-1 marginR" >
+								<a  class="editMessage" id="editMessage" onclick="editMessage(this)">Edit </a>
+							</div>
+							<div  class="col-sm-1" >				
+								<a  class="delMessage" id="delMessage" onclick="deleteMessage(this)">X</a>
+							</div>
+						</div>
+						<div class="row wrap" >
+								_____________________________________________________________________________________
+						</div>
+					</div>
+				</div>
+				-->
+				
+				
+				
+			</div>
+
+		</div>
+		<p></p>
+		
+		<!--������ ����( ����� ���������, ��� �����������, ������ Send-->
+		<div class="row sendMessagearea">
+			<div class="col-sm-10 "  style="background-color:lavender">
+				<textarea class="form-control" rows="5" id="messageTextArea"></textarea>
+			</div>
+			<div align=center class="col-sm-2" style="background-color:lavender;">
+				<img src="resources/img/avatar.jpg"  class="img-thumbnail" alt="Thumbnail Image" width="70" height="70">
+				<div  class="form-group" style="background-color:lavender; ">
+					<p></p>
+					<button  type="submit" class="btn btn-primary btnSend" name="SendButton">Send</button>
+				</div>
+			</div>
+		</div>
+			
+		
+	</div>
+  </div>
+</div>
+
+</body>
+</html>

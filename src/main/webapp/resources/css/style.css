@@ -1,0 +1,44 @@
+.wrap{
+	word-wrap: break-word;
+}
+.marginR{
+	margin-right:10px;
+}
+  .marginT{
+  margin-top: 10px;
+  }
+
+.delMessage
+{
+	margin-top: 10px; 
+	color:red;
+	font-weight:900;
+	align:left;
+}
+
+.editMessage
+{
+	margin-top: 10px; 
+	color:red;
+	font-weight:900;
+	align:left;
+}
+
+.saveEditedMessage
+{
+	margin-top: 10px; 
+	color:red;
+	font-weight:900;
+	align:right;
+}
+
+.border1{
+	border: 2px solid LightSlateGray;
+	border-radius: 10px;
+}
+.overflow {
+	overflow: auto;
+	height: 400px;
+	margin-top: 10px;
+	background-color:white;
+}

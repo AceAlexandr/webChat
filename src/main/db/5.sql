@@ -1,0 +1,1 @@
+SELECT * FROM users WHERE users.id IN (SELECT user_id FROM messages GROUP BY user_id HAVING COUNT(user_id) > 3);
